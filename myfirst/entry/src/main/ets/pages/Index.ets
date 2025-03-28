@@ -1,6 +1,15 @@
 //console.log('消息说明','打印的内容')
 // console.log('我说','学鸿蒙,来黑马')
 
+let title:string='巨无霸汉堡'
+console.log('字符串title',title)
+let age:number=18
+console.log('年纪age',age)
+let isLogin:boolean=true
+console.log('是否登录成功',isLogin)
+age=80
+console.log('年纪age',age)
+
 @Entry
 @Component
 struct Index {
