@@ -1,11 +1,12 @@
-function  star(){
-  console.log('五角星','☆')
-  console.log('五角星','☆☆')
-  console.log('五角星','☆☆☆')
-  console.log('五角星','☆☆☆☆')
-  console.log('五角星','☆☆☆☆☆')
+function buy(price: number, num: number) {
+  let result: number = price * num
+  return result
 }
-star()
+
+let apple: number = buy(2, 3)
+console.log('apple', apple)
+let banana: number = buy(4, 4)
+console.log('banana', banana)
 
 @Entry
 @Component
