@@ -1,12 +1,19 @@
-function buy(price: number, num: number) {
-  let result: number = price * num
+let stars = () => {
+  console.log('五角星', '☆')
+  console.log('五角星', '☆☆')
+  console.log('五角星', '☆☆☆')
+  console.log('五角星', '☆☆☆☆')
+  console.log('五角星', '☆☆☆☆☆')
+}
+stars()
+let buy=(price:number,weight:number)=>{
+  let result:number=price*weight
   return result
 }
-
-let apple: number = buy(2, 3)
-console.log('apple', apple)
-let banana: number = buy(4, 4)
-console.log('banana', banana)
+let apple:number=buy(2,3)
+console.log('苹果', apple)
+let banana:number=buy(2,3)
+console.log('香蕉', banana)
 
 @Entry
 @Component
