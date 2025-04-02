@@ -1,6 +1,11 @@
-let names: string[] = ['张三', '李四', '王五']
-console.log('names', names)
-console.log(names[2])
+function  star(){
+  console.log('五角星','☆')
+  console.log('五角星','☆☆')
+  console.log('五角星','☆☆☆')
+  console.log('五角星','☆☆☆☆')
+  console.log('五角星','☆☆☆☆☆')
+}
+star()
 
 @Entry
 @Component
